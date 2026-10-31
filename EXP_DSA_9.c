@@ -10,6 +10,7 @@ struct Node *createNode(int val) {
  newNode->left = newNode->right = NULL;
  return newNode;
 }
+
 struct Node *insert(struct Node *root, int val) {
  if (root == NULL)
  return createNode(val);
